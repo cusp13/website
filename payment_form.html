@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment form</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* h1{
+            text-align: center;
+            font-style: bold;
+         /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+        /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }*/
+        /*  h2{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: bolder;
+        } */
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <form action="">
+            <h1>Payment Form</h1>
+            <hr>
+            <!-- <p>Required fields are shown by star *</p> -->
+            <h2>User Information</h2>
+            <p>Name: *&nbsp;<input type="text" name="name" required placeholder=" "></p>
+            <fieldset>
+                <legend>Gender</legend>
+                <p>
+                    Male <input type="radio" name="gender" id="male">Female <input type="radio" name="gender"
+                        id="female">
+            </fieldset>
+            </p>
+            <p>Address:-<textarea name="address" id="address" cols="100" rows="5"></textarea>
+            <p>Email:-
+                <br>
+                <input type="email" name="email" id="email" placeholder="abc12@gmail.com">
+            </p>
+            <p>Pincode:-
+                <br>
+                <input type="number" name="Pincode" id="pin">
+            </p>
+            <hr>
+            <h2>Payment Information</h2>
+            <p> Card Type:-
+                <br>
+
+                <select name="card_type" id="card_type" required>
+                    <option value="">--select a card type--</option>
+                    <option value="visa">Visa</option>
+                    <option value="rupay">Rupay</option>
+                </select>
+            </p>
+            <p>
+                Card Number:-
+                <br>
+                <input type="number" name="card_number" id="card_number" required placeholder="9232 3413 2423 5455">
+            </p>
+            <p>
+                Expiration Date:-
+                <br> <input type="date" name="exp_date" required>
+            </p>
+            <p>CVV:-
+                <br>
+                <input type="password" name="CVV" required>
+            </p>
+            <input type="submit" value="Pay Now">
+            <input type="reset" value="Reset">
+        </form>
+    </div>
+</body>
+
+</html>

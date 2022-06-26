@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transforming in css</title>
+</head>
+<style>
+    .container{
+        background-color: rgb(187, 172, 172);
+        background-image: url('ttttt.jgp');
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 500px;
+    }
+    .box{
+        align-items: center;
+        color: white;
+        font-size: x-large;
+        display: flex;
+        justify-content: center;
+        background: rgb(228, 5, 5);
+        background-image: url('ttttt.jpg');
+        border: 2px solid black;
+        border-radius: 8px;
+        height: 300px;
+        width: 300px;
+        
+        /* transition-duration: 2s; */
+        /* transition-delay: ease-in-out; */
+        transition: all 0.5s ease-in-out;
+        transition-duration: background-color;
+        animation-name: badal;
+        animation-duration: 2s;
+        animation-direction: alternate-reverse;
+    }
+    .box:hover{
+        transform: rotate(90deg);
+        background-color:rgb(18, 95, 228) ;
+        border-radius: 40px;
+        height: 400px;
+        width: 400px;
+    }
+    @keyframes badal{
+        from {
+            width: 1px;
+        }
+
+        t0 {
+            width: 100%;
+        }
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="box">
+            xgfhgxmhk
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EDUCATION WEBSITE PROJECT</title>
+    <!-- <link rel="stylesheet" href="project1.css"> -->
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-self: center;
+            position: sticky;
+            top: 0%;
+            cursor: pointer;
+        }
+
+        .nav-list {
+            width: 50%;
+            /* background-color: rgb(2, 3, 1); */
+            display: flex;
+            /* justify-content: center; */
+            align-items: center;
+
+
+        }
+
+        .nav-list li {
+            list-style: none;
+            padding: 25px 30px;
+
+
+        }
+
+        .nav-list li a {
+            text-decoration: none;
+            color: white;
+
+        }
+
+        .nav-list li a:hover {
+            text-decoration: none;
+            color: rgba(238, 15, 15, 0.651);
+
+        }
+
+        .rightNav {
+            width: 50%;
+            /* background-color: violet; */
+            text-align: right;
+
+        }
+
+        #search {
+            -webkit-padding-start: 5px;
+            font-size: 17px;
+            border: 2px solid grey;
+            border-radius: 9px;
+        }
+
+        /* .btn{
+    border: 2px solid black;
+    border-radius: 5px;
+   height: 20px; */
+
+        .logo {
+            width: 20%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .logo img {
+            width: 33%;
+            border: 2px solid white;
+            border-radius: 50px;
+        }
+
+        .background {
+            background: url('background.jpg');
+            background-size: cover;
+            background-blend-mode: darken;
+
+
+        }
+
+        .firstSection {
+            height: 100vh;
+            width: 100%;
+            justify-content: center;
+            flex-direction: column;
+
+        }
+
+        .secondhalf {
+            width: 30%;
+            margin-left: 30px;
+        }
+
+        .secondhalf img {
+            /* margin-left: 30px; */
+            width: 210px;
+            padding: 4px 0px;
+            border: 4px double whitesmoke;
+    
+            border-radius: 10px;
+            display: block;
+            margin: auto;
+            height: 250px;
+        }
+
+        .box-main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: honeydew;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: auto;
+            max-width: 50%;
+            height: 80%;
+        }
+
+        .text-big {
+            font-size: 30px;
+            margin-bottom: 5px;
+        }
+
+        .text-small {
+            font-size: 15px;
+        }
+
+        .btn {
+            margin-top: 15px;
+            margin-left: 3px;
+            padding: 5px;
+            border: 2px solid rgb(230, 221, 221);
+            /* font-size: 10px; */
+            border-radius: 10px;
+            font-family: 'Times New Roman', Times, serif;
+            background: none;
+            color: blanchedalmond;
+            /* text-decoration: none; */
+        }
+
+        .btn a {
+            text-decoration: none;
+            color: aliceblue;
+        }
+
+        .secRight {
+            display: flex;
+            height: 500px;
+            align-items: center;
+            justify-content: center;
+            margin: auto;
+            max-width: 80%;
+
+        }
+
+        .paras {
+            padding: 60px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar background">
+        <ul class="nav-list">
+            <div class="logo"><img src="book.jpg" alt="logo not found"></div>
+            <li><a href="practice2.html" target="_blank">Home</a></li>
+            <li><a href="css6.html" target="_blank">About</a></li>
+            <li><a href="css15.html" target="_blank">Services</a></li>
+            <li><a href="payment_form.html" target="_blank">Contact</a></li>
+
+        </ul>
+        <div class="rightNav">
+            <input type="text" name="search" id="search">
+            <button class="btn">Search
+            </button>
+
+        </div>
+    </nav>
+    <section class="background firstSection">
+        <div class="box-main">
+            <div class="firsthalf">
+                <p class="text-big">Craziest girl but cute :))</p>
+                <p class="text-small">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, velit quas repellendus a cumque eaque!
+                    Provident, iste! Expedita, officia? Nisi eius deserunt delectus incidunt bus animi porro, qui neque
+                    obcaecati! Neque qui corporis est amet omnis illo aliquid ipsam enim fugiat, iure repellendus nulla!
+                    Repellendus earum at possimus vel doloribus.
+                    Temporibus consequatur adipiciatis minus debitis omnis. Sunt nobis rerum aut? mol.</p>
+                <div class="buttons">
+                    <button class="btn"><a href="new11.html" target="_blank">BUTTON1</a></button>
+                    <button class="btn"><a href="new11.html" target="_blank">BUTTON2</a></button>
+                </div>
+            </div>
+            <div class="secondhalf">
+                <img src="ttttt.jpg" alt="flower">
+
+            </div>
+        </div>
+    </section>
+    <section class="secRight">
+        <div class="paras">
+            <p class="sectionTag text-big">The end of illteracy is coming soon</p>
+            <p class="subsectionTag text-small">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam consectetur magnam sunt eligendi quidem,
+                sequi, officia odio non eveniet impedit recusandae consequatur blanditiis optio sed temporibus itaque
+                tenetur assumenda molestias tempore, rerum laborum vel repellendus nostrum. Commodi voluptate facere sit
+                sed, optio quae, perferendis, aliquid reprehenderit illo reiciendis quia dolorum!
+            </p>
+        </div>
+        <div class="thumbnail">
+            <img src="book.jpg" alt="img" class="imgFluid">
+        </div>
+
+    </section>
+</body>
+
+</html>

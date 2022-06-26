@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyframes and animation</title>
+    <style>
+        /* .body{
+            background-color: antiquewhite;
+        } */
+        .container{
+             background-image: url('Saumya1.jpg') ;
+             width: 100%;
+        }
+        .box{
+            /* background-color: green; */
+            /* background-image: url('ttttt.jpg'); */
+            width: 1300px;
+            height: 1000%px;
+            position: relative;
+            animation-name: badal;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-fill-mode: forwards;
+            animation-timing-function: ease-in;
+            animation-delay: 0.4s;
+            animation-direction: forwards; 
+        }
+        @keyframes badal{
+            from{
+                height: 0px;
+                border-radius: 2px;
+                /* background-color: bisque; */
+
+                
+            }
+            to{
+                height: 1300px;
+                border-radius: 20px;
+                background-image: url('Saumy2.jpg');
+                /* opacity: ; */
+                
+            }
+        }
+        /* @keyframes badal{
+            0%{
+                 top: 0px;
+                 left: 0px;
+            }
+            25%{
+                 top: 250px;
+                 left: 0px;
+            }
+            75%{
+               top: 0px;
+               left: 250px;
+            }
+            100%{
+                top: 250px;
+                left: 250px;
+            }
+        } */
+        p{
+            display: block;
+            margin: auto;
+            text-align: center;
+            padding-top: 20%;
+            color: rgb(221, 74, 74);
+            font-size: 50px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <p> Smile Please:)))</p> 
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+            margin: 0;
+            padding: 0;
+            /* background: url('https://www.istockphoto.com/photo/mountain-landscape-gm517188688-89380423') no-repeat center center/cover; */
+        }
+        header{
+            display: flex;
+            flex-direction: column;
+        }
+        header::before{
+            background: url('https://source.unsplash.com/collection/190727/1600x900') no-repeat center center/cover;
+            content: "";
+            position: absolute;
+            top:0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.3;
+        }
+        .navigation{
+            /* margin: 25px 30px; */
+            display: flex;
+            list-style: none;
+        }
+        li{
+            margin: 25px 30px;
+            /* padding: 34px; */
+        }
+        section{
+            margin: 3px 23px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* border: 2px solid red; */
+            height: 350px;
+            justify-content: center;
+            text-align: center;
+            
+        }
+        p{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        /* section::after{
+            content: "this is my area"
+        } */
+    </style>
+</head>
+<body>
+     <header>
+        <!-- <nav class="navbar">
+            <ul class="navigation">
+                <li class="item">Home</li>
+                <li class="item">About</li>
+                <li class="item">Services</li>
+                <li class="item">Contact</li>
+            </ul>
+        </nav> -->
+
+     </header>
+     <section>
+        <h2>Lorem ipsum dolor sit.</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam tenetur, vel voluptatibus eligendi ut quae, ratione deleniti dicta ullam dolorem molestiae suscipit ab beatae? Vitae voluptatibus odio necessitatibus vero pariatur?Aliquam modi necessitatibus dolore nobis deleniti, fugit quod! Cumque, neque. Cum ab pariatur ratione temporibus! Consequatur rem repellat incidunt voluptatem hic laudantium cupiditate iusto a exercitationem!</p>
+     </section>
+</body>
+</html>
